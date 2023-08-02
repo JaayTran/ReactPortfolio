@@ -49,14 +49,14 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        "I'm a full-stack developer with a Bachelors of Science in Computer
+        I'm a full-stack developer with a Bachelors of Science in Computer
         Science from X University. Passionate about crafting exceptional user
         experiences, I thrive on solving complex problems and creating
         innovative web applications. From front-end design to back-end
         functionality, I enjoy every aspect of the development process. My
         dedication to continuous learning keeps me up-to-date with the latest
         technologies. Whether collaborating in a team or working independently,
-        I approach every project with enthusiasm and attention to detail."
+        I approach every project with enthusiasm and attention to detail.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

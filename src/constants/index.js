@@ -124,7 +124,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'April 2023 - Present',
     points: [
-      'Developed a reservation management web app using the MERN stack (MongoDB, Express.js, React.js, Node.js) for a return client, delivering efficient and user-friendly software solution.',
+      'Developed a user-friendly reservation management web application using MongoDB, ExpressJS, ReactJS, NodeJS, HTML, CSS, and JavaScript, optimizing table booking efficiency.',
       'Increased operational efficiency by providing real-time visual representation of reservations for each day, enabling the restaurant staff to optimize table occupancy and minimize wait times.',
       'Employed RESTful API principles to design and develop the backend endpoints, allowing for efficient data retrieval and manipulation.',
       'Utilized industry best practices and coding standards to ensure high-quality code, maintainable software, and scalability of the web app.',
@@ -138,7 +138,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'August 2022 - March 2023',
     points: [
-      'Designed and developed a fully integrated serverside POS system using MERN stack (MongoDB, Express.js, React.js, Node.js) as well as HTML, CSS, and JavaScript, for clients, streamlining sales tracking and order processing for increased efficiency and faster service.',
+      'Designed and developed a fully integrated serverside POS system using MongoDB, ExpressJS, ReactJS, NodeJS, HTML, CSS, and JavaScript for clients, streamlining sales tracking and order processing for increased efficiency and faster service.',
       'Successfully transitioned clients from outdated and expensive POS system to a modern digital POS, resulting in annual cost savings of $1000.',
       'Developed a user-friendly CRUD system that enabled authorized users to easily manage restaurant operations directly on the website, resulting in improved operational efficiency and client satisfaction.',
       'Implemented Continuous Integration (CI) and Continuous Deployment (CD) methodologies to streamline the unit testing and deployment process for software releases.',
@@ -151,7 +151,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'May 2022 - June 2022',
     points: [
-      'Utilized MERN stack (MongoDB, Express.js, React.js, Node.js) as well as HTML, CSS, and JavaScript to develop an ecommerce website for the client, providing seamless user experience and efficient data storage.',
+      'Utilized MongoDB, ExpressJS, ReactJS, NodeJS, HTML, CSS, and JavaScript to develop an ecommerce website for the client, providing seamless user experience and efficient data storage.',
       'Integrated PayPal payment gateway and order tracking system, enabling secure payment processing and real-time updates for customers.',
       'Developed intuitive and easy-to-use CRUD interface for managing products and users, improving efficiency and reducing errors.',
       'Designed and built a comprehensive data representation model using Google Charts, providing intuitive and visual summaries of order and user data.',

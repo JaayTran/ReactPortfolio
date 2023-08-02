@@ -1,18 +1,23 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  linkedin,
+  resume,
+  bluegithub,
+  email,
   javascript,
   html,
   css,
   reactjs,
-  redux,
   nodejs,
   mongodb,
-  git,
+  python,
+  sql,
+  mysql,
+  graphql,
+  expressjs,
+  java,
   canfar,
   freelance,
+  resumepdf,
   pos,
   robotboil,
   trianglefab,
@@ -33,30 +38,43 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const links = [
   {
-    title: 'Web Developer',
-    icon: web,
+    title: 'Resume',
+    icon: resume,
+    linkurl: resumepdf,
   },
   {
-    title: 'ReactJS Developer',
-    icon: mobile,
+    title: 'Github',
+    icon: bluegithub,
+    linkurl: 'https://github.com/JaayTran/',
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Linkedin',
+    icon: linkedin,
+    linkurl: 'https://www.linkedin.com/in/jaaytran/',
   },
   {
-    title: 'Frontend Developer',
-    icon: creator,
+    title: 'Contact Me',
+    icon: email,
+    linkurl: 'mailto:jimmy2301@gmail.com',
   },
 ];
 
-const technologies = [
+const languages = [
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Python3',
+    icon: python,
+  },
   {
     name: 'HTML 5',
     icon: html,
   },
+
   {
     name: 'CSS 3',
     icon: css,
@@ -66,24 +84,35 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'SQL',
+    icon: sql,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'GraphQL',
+    icon: graphql,
+  },
+];
+
+const tools = [
+  {
+    name: 'React JS',
+    icon: reactjs,
   },
   {
     name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
+    name: 'MySQL',
+    icon: mysql,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'ExpressJS',
+    icon: expressjs,
+  },
+  {
+    name: 'MongoDB',
+    icon: mongodb,
   },
 ];
 
@@ -264,4 +293,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { links, tools, languages, experiences, testimonials, projects };

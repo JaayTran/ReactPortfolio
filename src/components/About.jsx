@@ -3,34 +3,36 @@ import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { services } from '../constants';
+import { links } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ServiceCard = ({ index, title, icon }) => (
+const LinkCard = ({ index, title, icon, linkurl }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-      >
-        <img
-          src={icon}
-          alt="web-development"
-          className="w-16 h-16 object-contain"
-        />
+      <a href={linkurl} target="_blank">
+        <div
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        >
+          <img
+            src={icon}
+            alt="web-development"
+            className="w-16 h-16 object-contain"
+          />
 
-        <h3 className="text-white text-[20px] font-bold text-center">
-          {title}
-        </h3>
-      </div>
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
+        </div>
+      </a>
     </motion.div>
   </Tilt>
 );
@@ -47,19 +49,19 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer currently specializing in the MERN
-        stack. I am very familiar with the programming languages such as Java,
-        C#, C++, Python, HTML/CSS, JavaScript ES6, PHP, SQL. I have expertise in
-        tools and frameworks such as React.js, Node.js, MySQL, ExpressJS,
-        OpenGL, MongoDB, Git, Linux I'm a quick learner and collaborate closely
-        with clients to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems. Let's work together to bring your ideas
-        to life!
+        "I'm a full-stack developer with a Bachelors of Science in Computer
+        Science from X University. Passionate about crafting exceptional user
+        experiences, I thrive on solving complex problems and creating
+        innovative web applications. From front-end design to back-end
+        functionality, I enjoy every aspect of the development process. My
+        dedication to continuous learning keeps me up-to-date with the latest
+        technologies. Whether collaborating in a team or working independently,
+        I approach every project with enthusiasm and attention to detail."
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+        {links.map((link, index) => (
+          <LinkCard key={link.title} index={index} {...link} />
         ))}
       </div>
     </>
